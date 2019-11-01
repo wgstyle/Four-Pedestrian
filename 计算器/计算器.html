@@ -22,7 +22,7 @@
 		 str=document.getElementById("nummessege");
 		 str.value=str.value.substring(0,str.value.length-1);
 		} 
-    function clear() {
+    function onclickclear() {
 
         str = document.getElementById("nummessege");
         str.value = "";
@@ -152,8 +152,8 @@
                 </td>
 
                 <td >
-                    <input type="button" value="Del" id="clear"
-                        onclick="clear()"
+                    <input type="button" value="Del" id="onclickclear"
+                        onclick="onclickclear()"
                        style="height: 70px; width: 130px; font-size: 50px">
                 </td>
 
